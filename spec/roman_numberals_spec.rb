@@ -24,4 +24,8 @@ describe '#convert' do
   it 'converts "10" to "X" 'do
     expect(convert(10)).to eq "X"
   end
+
+  it 'checks if argument used is a number between 1 to 50' do
+    expect()
+  end
 end
